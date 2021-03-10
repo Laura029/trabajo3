@@ -1,0 +1,39 @@
+body{
+	background-image: url(fondot.jpg);
+	background-size: cover;
+}
+.t{
+	position: absolute;
+	top: 5%;
+	font-size: 760%;
+	font-family: titulo;
+	left: 38.5%;
+	z-index: 2;
+	color: #FFFFFF;
+}
+
+.boton{
+	position: absolute;
+	top: 80%;
+	width: 15%;
+	height: 15%;
+	left: 82%;
+}
+
+.video{
+	position: absolute;
+	top: 25%;
+	width: 45%;
+	height: 68%;
+	left: 32%;
+	
+}
+@font-face{
+	font-family: titulo;
+	src: url(titulo.otf);
+}
+
+@font-face{
+	font-family: titulo5;
+	src: url(titulo5.otf);
+} 
